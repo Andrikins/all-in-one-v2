@@ -4,8 +4,8 @@ import random
 
 IS_SLEEP        = True # True / False. True если нужно поставить sleep между кошельками
 # от скольки до скольки спим между кошельками (секунды) :
-SLEEP_FROM      = 100
-SLEEP_TO        = 300
+SLEEP_FROM      = 300
+SLEEP_TO        = 700
 
 # нужно ли рандомизировать (перемешивать) кошельки. True = да. False = нет
 RANDOM_WALLETS  = True # True / False
@@ -192,7 +192,7 @@ def value_okx():
     zkSync Era
     '''
 
-    chain       = 'Arbitrum One'
+    chain       = 'ERC20'
     symbol      = 'ETH'
 
     amount_from = 0.02
